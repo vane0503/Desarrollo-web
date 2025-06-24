@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Simulacion de Netflix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #141414;
+      color: rgb(205, 216, 205);
+    }
+    .navbar {
+      background-color: #040310;
+    }
+    .navbar-brand {
+      color: red;
+      font-weight: bold;
+    }
+    .category-title {
+      margin: 20px 0 10px 10px;
+      font-size: 1.5rem;
+    }
+    .movie-img {
+      width: 160px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .movie-row {
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .movie-row img {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">NETFLIX</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link text-danger dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menú 
+          </a>
+        </li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Kids</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">DVD</a></li>
+      </ul>
+      <div class="d-flex align-items-center">
+          <span class="text-white me-3"><i class="fas fa-search"></i> Búsqueda</span>
+          <i class="fas fa-bell"></i>
+          <div class="profile-box ms-2 dropdown-toggle">
+            <img src="c:\Users\Laura Vanesa\Downloads\perfil.jpg" alt="perfil" style="width: 40px; height: 40px; object-fit: cover; border-radius: 4px;">
+            <span>Laura </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container-fluid">
+
+    <!-- Categoría 1 -->
+    <div class="category-title">Acción y Aventuras Criminales</div>
+    <div class="movie-row">
+      <img src="c:\Users\Laura Vanesa\Downloads\img01.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img02.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img04.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img06.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img05.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img07.webp" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img08.jpeg" class="movie-img" alt="">
+    </div>
+
+    <!-- Categoría 2 -->
+    <div class="category-title">Nuevos Lanzamientos</div>
+    <div class="movie-row">
+      <img src="c:\Users\Laura Vanesa\Downloads\img09.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img10.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img11.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img12.jpg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img13.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img14.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img15.jpeg" class="movie-img" alt="">
+    </div>
+
+    <!-- Categoría 3 -->
+    <div class="category-title">Thrillers</div>
+    <div class="movie-row">
+      <img src="c:\Users\Laura Vanesa\Downloads\img16.jpg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img17.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img18.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img19.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img20.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img21.jpeg" class="movie-img" alt="">
+      <img src="c:\Users\Laura Vanesa\Downloads\img22.jpeg" class="movie-img" alt="">
+    </div>
+
+  </div>
+
+</body>
+</html>
